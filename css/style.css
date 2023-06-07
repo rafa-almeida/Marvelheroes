@@ -1,3 +1,22 @@
 body {
   background-color: rgb(19, 19, 158);
+}
+
+.carossel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.carossel .central {
+  display: flex;
+  align-items: center;
+}
+.carossel .central .characterSmall {
+  width: 200px;
+}
+
+.character {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
