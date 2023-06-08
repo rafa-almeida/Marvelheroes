@@ -1,22 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(19, 19, 158);
 }
 
-.carossel {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-}
-.carossel .central {
-  display: flex;
-  align-items: center;
-}
-.carossel .central .characterSmall {
-  width: 200px;
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
 }
 
-.character {
-  width: 300px;
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .carossel .central {
+  width: 500px;
+}
+.container .carossel .central .characterSmall {
+  margin-bottom: 110px;
+  width: 150px;
+  box-shadow: 1px -6px 80px white;
+  border-radius: 20px;
+}
+.container .carossel .central .character {
+  width: 18em;
+  margin-left: 40px;
+  box-shadow: 1px -6px 80px white;
+  border-radius: 20px;
+}
+.container .carossel p {
+  text-align: center;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
