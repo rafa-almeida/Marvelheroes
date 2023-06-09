@@ -26,11 +26,13 @@ h1 {
 }
 .container .carossel .central .characterSmall {
   margin-bottom: 110px;
-  width: 150px;
+  width: 200px;
+  height: 350px;
   box-shadow: 1px -6px 80px white;
   border-radius: 20px;
 }
 .container .carossel .central .character {
+  display: none;
   width: 18em;
   margin-left: 40px;
   box-shadow: 1px -6px 80px white;

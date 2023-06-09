@@ -21,31 +21,38 @@ h1{
     margin-left: auto;
     margin-right: auto;
     
+    
     .carossel{
         
-    
     .central {
         width: 500px;
-                   
+               
         .characterSmall {
-           margin-bottom: 110px;   
-           width: 150px;
+           margin-bottom: 110px; 
+           
+           width: 200px;
+           height: 350px;
            box-shadow: 1px -6px 80px white;
            border-radius: 20px;
            
+           
         }
         .character {
+            display: none;
             width: 18em;
             margin-left: 40px;
             box-shadow: 1px -6px 80px white;
             border-radius: 20px;    
-        }  
+        } 
     }
         p{
         text-align: center;
         color: white;
     }
     }
-    
+
+
 }
+
+
 
