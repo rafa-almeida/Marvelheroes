@@ -1,5 +1,5 @@
 Bem vindo! 👋
- <img src="images/page.png" width="200" />
+ <img src="images/page.png" width="400" />
 
 
 Este projeto foi realizado em HTML, CSS, JavaScript e utilizando a lib Swipe para estilos de carrossel.
