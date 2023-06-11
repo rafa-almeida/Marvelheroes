@@ -12,10 +12,12 @@ body {
 }
 
 h1 {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
   position: absolute;
   color: whitesmoke;
   text-align: center;
-  padding: 50px;
+  padding-top: 15px;
   font-size: 40px;
 }
 
@@ -27,12 +29,13 @@ main {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  position: relative;
 }
 
 .swiper {
+  margin-top: 180px;
   width: 100%;
-  margin-top: 250px;
-  height: 100vh;
+  height: 100%;
 }
 
 .swiper-slide {
@@ -43,16 +46,20 @@ main {
 }
 
 .project-img {
-  width: 100%;
+  margin-top: 10px;
+  height: 100vh;
+  position: absolute;
 }
 .project-img img {
-  width: 10em;
-  margin-left: 40px;
+  margin-top: 20px;
+  width: 16%;
   box-shadow: 1px -6px 80px white;
   border-radius: 20px;
 }
 .project-img p {
-  margin-top: 90px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  margin: 70px 50px 40px 50px;
   font-weight: 100;
   font-size: large;
   text-align: center;
@@ -60,44 +67,29 @@ main {
 }
 
 .swiper-pagination {
-  margin-bottom: 240px;
+  margin-bottom: 270px;
 }
 
-.button {
-  margin-bottom: -200px;
-  position: absolute;
+.swiper-button-next:after {
+  margin: -260px 1140px 0 600px;
 }
 
-@media (max-width: 500px) {
-  .swiper {
-    height: 270px;
+.swiper-button-prev::after {
+  margin: -260px 0 0 540px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 12px;
   }
 }
-.container {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+@media (max-width: 480px) {
+  p {
+    font-size: 20px;
+  }
 }
-.container .carossel .central {
-  width: 500px;
-}
-.container .carossel .central .characterSmall {
-  display: none;
-  margin-bottom: 110px;
-  width: 200px;
-  height: 350px;
-  box-shadow: 1px -6px 80px white;
-  border-radius: 20px;
-}
-.container .carossel .central .character {
-  display: none;
-  width: 18em;
-  margin-left: 40px;
-  box-shadow: 1px -6px 80px white;
-  border-radius: 20px;
-}
-.container .carossel p {
-  display: none;
-  text-align: center;
-  color: white;
+@media (max-width: 480px) {
+  .project-img img {
+    width: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
