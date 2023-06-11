@@ -32,6 +32,7 @@ main{
     align-content: center;
     justify-content: center;
     position: relative;
+    
 }
 
 .swiper {
@@ -61,7 +62,7 @@ main{
     p{
         font-family:'Montserrat', sans-serif;
         line-height: 25px;
-        margin: 70px 50px 40px 50px;
+        margin: 70px 50px 40px 40px;
         font-weight: 100;
         font-size:large;
         text-align: center;
@@ -81,6 +82,21 @@ main{
     margin: -260px 0 0 540px;
 }
 
+.footer {
+    margin: 40px 0 10px 0;
+    a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+        text-decoration: none;
+        color: white;
+    } 
+    span {
+        font-size: small;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+}
+
 @media (max-width: 480px) {
     h1 {
       font-size:12px;
@@ -96,11 +112,29 @@ main{
 @media (max-width: 480px) {
     .project-img  img{
        width: 50%;
-        
     }
 }
 
-  
+@media (max-width: 480px) {
+    .swiper-button-next:after{
+        margin: -260px 40px 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper-button-prev::after {
+        margin: -260px 0 0 40px;
+    }
+}
+
+@media (max-width: 359px) {
+    .swiper-pagination{
+        margin-bottom: 180px;
+    }
+}
+
+
+
  
 
 
